@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/repos/MNIST_handwritten_digit/mnist_classification/mlruns/0/e19a235ec8564b3ea426b206b85c28d5/artifacts
+end_time: 1712552262770
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e19a235ec8564b3ea426b206b85c28d5
+run_name: flawless-dolphin-89
+run_uuid: e19a235ec8564b3ea426b206b85c28d5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712551419939
+status: 3
+tags: []
+user_id: HP
