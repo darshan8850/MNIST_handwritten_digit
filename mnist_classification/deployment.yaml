@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mnist-inference
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: mnist-inference
+  template:
+    metadata:
+      labels:
+        app: mnist-inference
+    spec:
+      containers:
+      - name: mnist-inference
+        image: darshan8950/mnist-inference:latest
+        ports:
+        - containerPort: 5000
