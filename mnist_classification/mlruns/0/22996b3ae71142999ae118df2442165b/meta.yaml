@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/repos/MNIST_handwritten_digit/mnist_classification/mlruns/0/22996b3ae71142999ae118df2442165b/artifacts
+end_time: 1712563846794
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 22996b3ae71142999ae118df2442165b
+run_name: shivering-smelt-938
+run_uuid: 22996b3ae71142999ae118df2442165b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712563562934
+status: 3
+tags: []
+user_id: HP

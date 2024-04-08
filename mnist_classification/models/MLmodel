@@ -13,6 +13,6 @@ flavors:
     model_type: keras
     save_format: tf
 mlflow_version: 2.11.3
-model_size_bytes: 1767907
-model_uuid: 88f4a6eb951a4095889bc3e6ca7fbb6f
-utc_time_created: '2024-04-08 04:57:19.897184'
+model_size_bytes: 1767485
+model_uuid: 384132a903864edea42b1eb1f720b5d7
+utc_time_created: '2024-04-08 08:09:57.951507'

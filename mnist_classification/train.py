@@ -43,10 +43,10 @@ x_test = x_test.reshape(10000, 28, 28, 1)
 with mlflow.start_run() as run:
     
     # Log parameters
-    mlflow.log_param("epochs", 25)
-    mlflow.log_param("batch_size", 32)
+    mlflow.log_param("epochs", 5)
+    mlflow.log_param("batch_size", 64)
 
-    model.fit(x_train, y_train, epochs=25, batch_size=32, validation_split=0.1)
+    model.fit(x_train, y_train, epochs=5, batch_size=64, validation_split=0.1)
 
     loss, acc = model.evaluate(x_test, y_test)
     mlflow.log_metric("test_loss", loss)
