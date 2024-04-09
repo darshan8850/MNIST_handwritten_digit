@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/repos/MNIST_handwritten_digit/mnist_classification/mlruns/0/e613ef31d2654d29b4f9f879d1a44ff0/artifacts
+end_time: 1712583354584
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e613ef31d2654d29b4f9f879d1a44ff0
+run_name: agreeable-trout-50
+run_uuid: e613ef31d2654d29b4f9f879d1a44ff0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712583133584
+status: 3
+tags: []
+user_id: HP

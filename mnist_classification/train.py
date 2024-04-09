@@ -3,6 +3,9 @@ from tensorflow.keras import layers, models
 import mlflow
 import mlflow.tensorflow
 from tensorflow.keras.datasets import mnist
+import warnings 
+
+warnings.filterwarnings('ignore') 
 
 # Data Load
 (x_train, y_train), (x_test, y_test) = mnist.load_data()
@@ -52,4 +55,5 @@ with mlflow.start_run() as run:
     mlflow.log_metric("test_loss", loss)
     mlflow.log_metric("test_accuracy", acc)
 
-    mlflow.tensorflow.save_model(model, "models")
+    model.save("model.h5")
+

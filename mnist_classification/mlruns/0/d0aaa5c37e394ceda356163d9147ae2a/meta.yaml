@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/repos/MNIST_handwritten_digit/mnist_classification/mlruns/0/d0aaa5c37e394ceda356163d9147ae2a/artifacts
+end_time: 1712582988847
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d0aaa5c37e394ceda356163d9147ae2a
+run_name: debonair-owl-254
+run_uuid: d0aaa5c37e394ceda356163d9147ae2a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712582731473
+status: 3
+tags: []
+user_id: HP

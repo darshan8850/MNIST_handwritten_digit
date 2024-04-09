@@ -3,3 +3,4 @@ cloudpickle
 numpy
 tensorflow-intel
 tensorflow
+gunicorn
