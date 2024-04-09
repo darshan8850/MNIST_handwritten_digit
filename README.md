@@ -4,13 +4,5 @@ This repository contains scripts for training a convolutional neural network (CN
 
 ### Project Structure
 
-mnist_classification/
-│
-├── train.py # Script for training the CNN model and logging with MLflow
-├── inference.py # Script for serving the trained model using Flask
-├── Dockerfile # Dockerfile for building the inference image
-├── deployment.yaml # Kubernetes deployment configuration
-├── service.yaml # Kubernetes service configuration
-├── requirements.txt # Python dependencies
-├── mlruns/ # MLflow tracking directory (contains experiment logs)
-├── model.h5 # Trained CNN model saved in HDF5 format
+![MNIST Dataset Example](readme_utils/img.png)
+
